@@ -32,7 +32,7 @@ menu_data = {
 	  { 'title': "Install Kodi 16 ", 'type':  MENU, 'subtitle': "",
           'options': [
     { 'title': "Step 1: Download Kodi Install Script, Downloads Kodi16.sh install script to home directory", 'type': COMMAND, 'command': 'wget https://raw.githubusercontent.com/BBOLDT86/Saphire/master/Kodi16.sh' },  
-	  { 'title': "Step 2: Run Kodi Install Script", 'type': COMMAND, 'command': 'sudo sh kodi16.sh' }		  
+	  { 'title': "Step 2: Run Kodi Install Script", 'type': COMMAND, 'command': 'sudo sh kodi16.sh' },		  
 	  { 'title': "Install RetroPie", 'type':  MENU, 'subtitle': "",
           'options': [
     { 'title': "Step 1: Download Install Script", 'type': COMMAND, 'command': 'wget https://raw.githubusercontent.com/BBOLDT86/Saphire/master/RetroPie.sh' },
