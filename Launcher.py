@@ -29,7 +29,11 @@ menu_data = {
     { 'title': "Setup and Installation", 'type':  MENU, 'subtitle': "",
           'options': [
     { 'title': "Clone SD Card using Rpi-Clone", 'type': COMMAND, 'command': 'sudo rpi-clone sda -v -x' },	 
-	  { 'title': "Install Kodi 16 ", 'type':  MENU, 'subtitle': "",
+	   { 'title': "Download Menu Updater", 'type': COMMAND, 'command': 'wget https://raw.githubusercontent.com/AELECTRIC/AlmondLauncher/master/update.sh' },
+		     { 'title': "Run menu Updater", 'type': COMMAND, 'command': 'sudo sh update.sh' },
+		  
+		  
+		  { 'title': "Install Kodi 16 ", 'type':  MENU, 'subtitle': "",
           'options': [
     { 'title': "Step 1: Download Kodi Install Script, Downloads Kodi16.sh install script to home directory", 'type': COMMAND, 'command': 'wget https://raw.githubusercontent.com/BBOLDT86/Saphire/master/Kodi16.sh' },  
 	  { 'title': "Step 2: Run Kodi Install Script", 'type': COMMAND, 'command': 'sudo sh kodi16.sh' },		  
