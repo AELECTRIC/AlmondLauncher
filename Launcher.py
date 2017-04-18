@@ -24,7 +24,7 @@ menu_data = {
   'title': "Almond Pi Launcher", 'type': MENU, 'subtitle': " ",
   'options': [
     { 'title': "Enter Wifi Password information", 'type': COMMAND, 'command': 'sudo nano /etc/network/interfaces' },	
-    { 'title': "Download Roms Loader Script", 'type': COMMAND, 'command': 'wget https://raw.githubusercontent.com/BBOLDT86/Saphire/master/copyroms.sh },	
+    { 'title': "Download Roms Loader Script", 'type': COMMAND, 'command': 'wget https://raw.githubusercontent.com/BBOLDT86/Saphire/master/copyroms.sh' },	
     { 'title': "Launch Kodi", 'type': COMMAND, 'command': 'kodi-standalone' },
     { 'title': "Launch Retro Pie", 'type': COMMAND, 'command': 'sh /home/pi/emulationstation.sh' },
     { 'title': "Setup and Installation", 'type':  MENU, 'subtitle': "",
