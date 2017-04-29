@@ -43,8 +43,7 @@ menu_data = {
     { 'title': "Step 1: Download Install Script", 'type': COMMAND, 'command': 'wget https://raw.githubusercontent.com/BBOLDT86/Saphire/master/RetroPie.sh' },
     { 'title': "Step 2: Run Install Script", 'type': COMMAND, 'command': 'sudo sh Retropie.sh' },
     { 'title': "Step 3: Get Roms Install Script", 'type': COMMAND, 'command': 'wget https://raw.githubusercontent.com/BBOLDT86/Saphire/master/copyroms.sh' },	  
-    #{ 'title': "Install Magic Mirror", 'type': COMMAND, 'command': 'bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/master/installers/raspberry.sh)" }		  
-     
+    
      
      ]
      }
@@ -52,7 +51,7 @@ menu_data = {
     }
 	  ]
 }
-
+	  
 # This function displays the appropriate menu and returns the option selected
 def runmenu(menu, parent):
 
